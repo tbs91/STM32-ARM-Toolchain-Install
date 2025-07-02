@@ -8,3 +8,4 @@ Extract the contents, move down one folder and copy the folder 'gcc-arm-none-eab
 
 Install 'make' with command 'sudo apt install make'
 Navigate to the location of the gcc compiler '/home/thomas/dev/tools/gcc-arm-none-eabi-10.3-2021.10/bin' and run command 'chmod +x ./arm-none-eabi-gcc' if you have issues with not having permission to run the compiler.
+
