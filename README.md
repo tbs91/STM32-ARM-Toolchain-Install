@@ -11,4 +11,12 @@ Navigate to the location of the gcc compiler '/home/thomas/dev/tools/gcc-arm-non
 
 The following steps have been taken from https://wiki.st.com/stm32mpu/wiki/STM32CubeProgrammer
 Download STM32CubeProgrammer from ST's website, extract and run 'SetupSTM32CubeProgrammer-2.19.0.linux'. Follow the installation procedure.
+Install libusb with 'sudo apt-get install libusb-1.0-0'
+To allow access to the USB port for STM32CubeProgrammer run the commands
+'cd <your STM32CubeProgrammer install directory>/Drivers/rules'
+'sudo cp *.* /etc/udev/rules.d/'
+
+The above steps will allow for the compiling and flashing an STM32 board.
+
+
 
